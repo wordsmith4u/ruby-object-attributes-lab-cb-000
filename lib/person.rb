@@ -1,36 +1,36 @@
 class Person
-  
+
   def name=(name)
     @name = name
   end
-  
+
   def name
     @name
   end
 
   def job=(job)
     @job = job
-  end 
+  end
 
-  def job 
+  def job
     @job
-  end 
-  
+  end
+
 end
 
-# Notes and practice 
+# Notes and practice
 
 class Record
-  
+
   def genre=(records_genre)
     @grenre = records_genre
-  end 
-  
+  end
+
   def genre
-    @genre 
-  end 
-  
-end 
+    @genre
+  end
+
+end
 
 beasty_boys = Record.new
 beasty_boys.genre = "Rap and R&B"
